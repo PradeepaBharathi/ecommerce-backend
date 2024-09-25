@@ -3,7 +3,7 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import dbConnection from './db.js'
 import products from './route/productRoutes.js'
-import cart from './route/cartRoutes.js'
+
 dotenv.config()
 dbConnection()
 const app = express()
